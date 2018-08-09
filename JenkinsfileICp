@@ -1,4 +1,4 @@
-gpipeline {
+pipeline {
     agent {label "master"}
     parameters {
            string(name: 'IMAGE_VERSION', defaultValue: '1.1')
